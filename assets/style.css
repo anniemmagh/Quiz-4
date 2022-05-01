@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0%;
+    padding:0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    width: 100%;
+    background-color: rgb(236, 230, 230);
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+}
+ul {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    
+}
+li {
+    float: left;
+}
+a {
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#section1 {
+    height: 700px;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICgcICAcHBwcHCAoHBwcHBw8ICQcKIBEWFiARHx8YKCggGBolGx8TITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ8PFS0ZFRkrKystKysrKy0tKy0rLS0rKy03LS03LS03KysrKysrKy0rKysrKysrKysrKysrKysrK//AABEIALYBFQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIFB//EABUQAQEAAAAAAAAAAAAAAAAAAAAB/8QAGgEBAQEBAQEBAAAAAAAAAAAAAQIABgQFA//EABcRAQEBAQAAAAAAAAAAAAAAAAARARL/2gAMAwEAAhEDEQA/APOogXVR0VMISY1KBTBSWSIKUkI1KBTuClApjUqAiClApjUoEbgpQKYKiEIKSEmNSQYIKiCmNSgRBUQUwUoIRq5yBfdj96UCmClAiNSgRBSkk7gpSSYKUCI1KBTuClJJjUkIQUpIbgpiSTGpQKYKUCIKUCncalJJgpSQFKSEauagX3o/elApgpQIjUoFMFKBTGpMCEFKSTuCkskRqUkmCkhJ3BSQU7jVEEQVEJO4KTBEncakggVEFO4KUCNwUoFMauYgXQR6KUCmClApgpLJEakslMFJCTBSQkxqSENwUkJMFJBTuNSgRuClJJ3BSkkwVEFMalAjcFKUSYKSCmNUkhB05ZBdDuPRSgUxqUCmClCEbgpLJTBSQkxqSEncFJBTuCohJjVpApgpLMI3BSQkwUkFO4KkkmNSQUwVEEbgpSSdxqUkmCuUQnRR6aSDBuClAp3BSkk7jUoQpgpIKYKiCncalApgpSQgpQKYKUkmCtIFMFKBTGpSSdwUoFO4KUkncFJBTuNSgRBXJLJjo49VJgSdwVpAxMFJZI3BSQk7gpIURuNSQRuClAp3BSQkwUkJO41JBTBSgUwUkJMFJEKYKiCmCogp3GpSiTuClJCCuSknSbj1UkJMFJBTBSgUxqYQU7gqISdwVpAp3BSWSncFJCTuCtIFO41RBTBSQkwUkFO4KUCmClJJ3GpIiRuCkgpgpQIgrkIF00eukhJgpIhiNwUoFOikwJO4GkIU7jUoFIpISdwUkGJ3BSQk6KSEnRSQUNSgYncFJBidFKBSKiok7gpMEUTopSQFciEQuje4pJIMMEMTrIgp0FJJBhEKdCIKQUkjQTAYnQUklikk6CQU6EYDE6NJgMToRBQDEogDFFFEaCkgzkQiF0b3FJJBhghidZEFOgpJIMIhToRBSCkkaCYDE6CkksUknQSCnQjAYnRpMBidCIKAYlEAYooojQUkGciFJ0b3FFJChiSdZFJOgpJIMKSdCKSQSkjQjEk6CkksUknQSknQjCk6NRiSdCKSAYkgDFEkaCkgz//Z);
+    display: inline-block;
+    width: 100%;
+}
+#section2 {
+    height: 700px;
+    background-image: url(https://img.wallpapersafari.com/desktop/1600/900/7/61/03sqo1.png);
+    display:inline-block ;
+    width: 100%;
+}
+#section3 {
+    height: 700px;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcIBw0ICAoHBwcHBgoGBwcHBw8ICQgKIBEiFiARExMYKCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLjcBCgoKDQ0NDg0NDisZFRkrLSstLSsrKysrNysrKy0rKystKysrKysrLSsrKysrKysrKysrLSsrKy0rKystKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAwABB//EABYQAQEBAAAAAAAAAAAAAAAAAAEAEf/EABoBAQEBAQEBAQAAAAAAAAAAAAIAAQMEBQb/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AODMaQyG/TSvSsMxojMZNVGY0hkMpUsMxojMZNWGQ0hmNqVG6NMZjZYlBkNIZjGxKDMaQzGFiUGQ0xkMbEqMhpDMYWJQZDTGQxsSoyGkMxjYlBmNIZDCxKjIaYyGNiUGQ0xkMbEqMhpDMYWJQZjSGQxsSoyGmMhhYlBntIZbGxPJBmNEZjfXFUZjSGQylSwzGiMxlrVRmNIZDKVLDMaIzGTVhkNIZjalRujTGY2WJQZDSGYxsSgzGkMhhYlRkNMZDGxKjIaQzGFiUGQ0xkMbEqMhpDMY2JQZjSGQwsSoyGmMhjYlBkNMZDGxKjIaQzGFiUGY0hkMbEqMtpjLYWJ5EMxojMb6YLDMaIzGTVRmNIZDKVLDMaIzGUaqMxpDIZSpYZjRGYyasMhpDMbUqN0aYzGyxKDIaQzGNiUGY0hkMLEqMhpjIY2JUZDSGYwsSgyGmMhjYlRkNIZjGxKDMaQyGFiVGQ0xkMbEoMhpjIY2JUZDSGYwsSgy2mMo4nkQyGkMxvdKCozGiMxlKlhmNEZjJqozGkMhlKlhmNEZjKVqozGkMhlKlhmNEZjJqwyGkMxtSo3RpjMbLEoMhpDMY2JQZjSGQwsSoyGmMhjYlRkNIZjCxKDIaYyGNiVGQ0hmMbEoMxpDIYWJUZDSGYxsSgyGmMhjYlRltIZbCxPIRmNEZjeqVzWGQ0hmMo1UZjRGYylSwzGiMxk1UZjSGQylSwzGiMxlK1UZjSGQylSwzGiMxk1YZDSGY2pUbo0xmNliUGQ0hmMbEoMxpDIYWJUZDTGQxsSoyGkMhhYlRkNMZDGxKjIaQzGNiUGQ0xkMLEqMhpDMY2JQZbTGWxxPHxmNIZDdZXNYZjRGYylSwyGkMxk1UZjRGYylSwzGiMxlGqjMaQyGUqWGY0RmMo1UZjSGQylSwzGiMxk1YZDSGY2pUbo0xkNliVGQ0hmMbEoMxpDIYWJUZDTGQxsSgzGkMhhYlRkNMZDGxKjIaQzGNiUGQ0xkMLEqMtpDLY4nj4zGiMxtclRmNIZDKVqwzGiMxlKlhkNIZjJqozGiMxlEsMxojMZNVGY0hkMpUsMxojMZRqozGkMhlKlhmNEZjJqwyGkMxtSgyGmMhssSoyGkMxjYlBmNIZDCxKjIaYyGNiUGY0hkMLEqMhpjIY2JUZDSGYxsSgy2mMtjYnjozGiMxucrisMxojMZNVGY0hkMpUsMxojMZStWGQ0hmMo1UZjRGYyiWGY0RmMmqjMaQyGUqWGY0RmMo1UZjSGQylSwzGiMxk1YZDSGY2pQZDTGQ2WJUZDSGYxsSgzGkMhhYlRkNMZDGxKDMaQyGFiVGQ0xkMbEqN3aYy2NieOjIaQyG87isMxojMZSpYZjRGYyaqMxpDIZSpYZjRGYylasMhpDIZStWGY0RmMolhmNAagyaqMxpDIZSpYZjRGYylaqMxpDIZSpYZjRGYyaqMxpDMbUoMhpjIbLEqMhpDMY2JQZjSGQwsSoyGmMhjYlBmNIZDCxKjLaYy2OJ42MxojMbySuCozGkMhtasMxojMZSpYZjRGYyaqMxojMZSpYZjRGYylaqMxpDIZStWGQ0hmMksMxoDUGTVRmNIZDKVLDMaIzGTVRmNIZDKVLDMaIzGTVRmNIZDalRkNMZDZYlRkNIZjGxKDMaQyGFiVGQ0xkMbEoMtpjLYYnjQzG1rwOBjMbWlEQzG1pRpjMbWk0xkN21qIZja0mmMxtaURDMbWm0xkNrWxKDMblpRpjMbWlEYzG1pNIZja0ojGY2tKNIZja1qIZDa1lRjIbWhUQzG5aNRjLbWhU/9k=);
+    display: inline-block;
+    width: 100%;
+}
+#section4 {
+    height: 700px;
+    background-image: url(http://houstonse.org/wp-content/uploads/2020/11/Abstract-Geometric-Background-Purple.jpg);
+    display: inline-block;
+    width: 100%;
+}
+h1 {
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+}
+p {
+    position:static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+contact-box  {
+    width: 500px;
+    background-color: yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form { background-color: purple;
+    margin: 35px;
+}
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777 ;
+    border-radius: 14px ;
+    outline: none;
+}
+.btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: chocolate;
+    font-size: 12px;
+    cursor: pointer;
+}
